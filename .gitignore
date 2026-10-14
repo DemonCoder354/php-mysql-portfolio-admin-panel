@@ -1,0 +1,8 @@
+# Local settings with real passwords (copy config.example.php to create it)
+config.php
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

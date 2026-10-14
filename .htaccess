@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Block direct access to internal files and folders
+<FilesMatch "^(config\.php|config\.example\.php|create_admin\.php|README\.md|\.gitignore)$">
+  Require all denied
+</FilesMatch>
+RedirectMatch 403 ^.*/(includes|database)/
